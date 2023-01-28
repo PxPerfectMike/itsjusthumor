@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/itsjusthumor/static/css/main.07a0e61e.css",
+    "main.js": "/itsjusthumor/static/js/main.46dbf7d4.js",
+    "index.html": "/itsjusthumor/index.html",
+    "main.07a0e61e.css.map": "/itsjusthumor/static/css/main.07a0e61e.css.map",
+    "main.46dbf7d4.js.map": "/itsjusthumor/static/js/main.46dbf7d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07a0e61e.css",
+    "static/js/main.46dbf7d4.js"
+  ]
+}
