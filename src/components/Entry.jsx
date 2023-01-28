@@ -7,7 +7,7 @@ function Entry() {
 	useEffect(() => {
 		async function fetchData() {
 			const response = await fetch(
-				'https://v2.jokeapi.dev/joke/Any?safe-mode=false'
+				'https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,explicit'
 			);
 			const json = await response.json();
 			setData(json);
@@ -18,7 +18,7 @@ function Entry() {
 	const handleClick = () => {
 		async function fetchData() {
 			const response = await fetch(
-				'https://v2.jokeapi.dev/joke/Any?safe-mode=true'
+				'https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,explicit'
 			);
 			const json = await response.json();
 			setData(json);
